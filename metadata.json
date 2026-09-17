@@ -1,0 +1,6 @@
+{
+  "name": "亞馬遜國家山岳協會｜登山安全教育知識平台",
+  "description": "第六章｜裝備知識：從基礎裝備選擇，到高山環境應用，建立完整裝備管理能力。適合環境、正確使用、了解限制，才是真正的安全。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
