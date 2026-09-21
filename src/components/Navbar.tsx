@@ -38,18 +38,8 @@ export const Navbar: React.FC<NavbarProps> = ({ completedCount, totalCount }) =>
             <div className="w-9 h-9 rounded-sm bg-zinc-900 border border-zinc-700/80 flex items-center justify-center text-amber-500 shadow-inner">
               <Shield className="w-5 h-5" />
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-mono tracking-widest text-amber-500 font-semibold uppercase">
-                  CHAPTER 06
-                </span>
-                <span className="text-[10px] px-1.5 py-0.5 rounded bg-zinc-800/80 text-zinc-400 font-mono">
-                  FIELD MANUAL
-                </span>
-              </div>
-              <div className="text-sm font-semibold tracking-wide text-zinc-100">
-                亞馬遜國家山岳協會
-              </div>
+            <div className="text-sm font-semibold tracking-wide text-zinc-100">
+              亞馬遜國家山岳協會
             </div>
           </a>
 

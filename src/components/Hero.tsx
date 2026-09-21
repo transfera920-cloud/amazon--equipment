@@ -36,32 +36,8 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Top Association Tag */}
-        <div className="flex flex-wrap items-center justify-between gap-4 mb-8 pb-4 border-b border-zinc-800/60">
-          <div className="flex items-center gap-2.5">
-            <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
-            <span className="text-xs font-mono tracking-widest text-zinc-400 uppercase">
-              {CHAPTER_METADATA.organization} ｜ {CHAPTER_METADATA.platformName}
-            </span>
-          </div>
-          <div className="hidden sm:flex items-center gap-4 text-xs font-mono text-zinc-400">
-            <span>CORE SPECIFICATION</span>
-            <span className="text-zinc-600">•</span>
-            <span>STANDARD ARCHITECTURE</span>
-          </div>
-        </div>
-
         {/* Header Block */}
         <div className="max-w-3xl">
-          {/* Chapter Subtitle Badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-zinc-900/90 border border-zinc-700/80 mb-6">
-            <span className="text-xs font-mono font-bold tracking-widest text-amber-400">
-              {CHAPTER_METADATA.chapterNumber}
-            </span>
-            <span className="text-zinc-600">|</span>
-            <span className="text-xs font-mono text-zinc-400">TECHNICAL EDUCATION MANUAL</span>
-          </div>
-
           {/* Single Primary H1 */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
             {CHAPTER_METADATA.title}
