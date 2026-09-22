@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "vite build && mkdir -p dist/chapter06 && mv dist/index.html dist/assets dist/chapter06/ && ls -la dist",
+    "build": "vite build && node scripts/prerender.mjs && mkdir -p dist/chapter06 && mv dist/index.html dist/assets dist/chapter06/ && ls -la dist",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit"
