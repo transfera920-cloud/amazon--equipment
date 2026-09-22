@@ -10,7 +10,7 @@ export const Navbar: React.FC<NavbarProps> = ({ completedCount, totalCount }) =>
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: '首頁', href: '#hero' },
+    { name: '回到頂部', href: '#hero' },
     { name: '本章核心', href: '#chapter-core' },
     { name: '三層穿衣', href: '#three-layers' },
     { name: '背包配置', href: '#backpack-packing' },
