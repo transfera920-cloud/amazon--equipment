@@ -4,7 +4,7 @@ import { CHAPTER_METADATA, FIELD_INDEX_DATA } from '../data/chapter06';
 
 export const Hero: React.FC = () => {
   return (
-    <section id="hero" className="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden border-b border-zinc-800/80 bg-topo-pattern">
+    <section id="hero" className="relative pt-8 pb-20 md:pt-12 md:pb-28 overflow-hidden border-b border-zinc-800/80 bg-topo-pattern">
       {/* Mountain Altitude Background Graphic (Abstract contours / elevation lines) */}
       <div className="absolute inset-0 pointer-events-none opacity-20 overflow-hidden" aria-hidden="true">
         <svg
