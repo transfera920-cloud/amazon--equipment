@@ -8,7 +8,7 @@ import {
 
 export const CHAPTER_METADATA = {
   chapterNumber: 'CHAPTER 06',
-  title: '裝備知識',
+  title: '登山裝備知識',
   subtitle: '從基礎裝備選擇，到高山環境應用，建立完整裝備管理能力。',
   manifesto: '裝備不是越貴越安全。適合環境、正確使用、了解限制，才是真正的安全。',
   organization: '亞馬遜國家山岳協會',
